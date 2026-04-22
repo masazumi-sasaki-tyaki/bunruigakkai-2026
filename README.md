@@ -68,9 +68,9 @@
 1. **データの前処理**  
    cleaning1.py → cleaning2.py → cleaning3.py の順に実行し、分析用データを整備します。  
 2. **次元圧縮とクラスタリング**  
-   jigen.py や t-sne.py を実行し、Gower距離の計算とt-SNEによるマッピング、HDBSCANによるクラスタリングを行います。  
+   t-sne.py を実行し、Gower距離の計算とt-SNEによるマッピング、HDBSCANによるクラスタリングなどを行います。  
 3. **評価と図版作成**  
-   k-check.py や ARI.py で結果の妥当性を評価します。  
+   jigen.py, k-check.py や ARI.py で結果の妥当性を評価します。  
    論文用の白黒図版が必要な場合は、t-SNE-shirokuro.py や Ankercompare-shirokuro.py を実行してください。
 
 ## **著者**
